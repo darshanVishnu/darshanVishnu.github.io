@@ -1,237 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+<title>Darshan's HomePage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-<head>
-  <title>Darshan's HomePage</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-    .fakeimg {
-      height: 200px;
-      background: #aaa;
-    }
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-    .avatar {
-      vertical-align: middle;
-      width: 250px;
-      height: 250px;
-      border-radius: 50%;
-    }
-  </style>
-</head>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="DarshanDoddaghattaphoto.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2 style="color: azure;">Darshan Doddaghatta</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>NewYork, USA</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>darshan.vishnu95@gmail.com</p>
+          <p><i class="fa fa-book fa-fw w3-margin-right w3-large w3-text-teal"></i><a class="nav-link" style="text-decoration: none;"
+href="DarshanDoddaghatta.pdf">Resume</a></p>
+          <hr> 
+          
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Kannada</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <br><hr>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-pencil fa-fw w3-margin-right w3-text-teal"></i>Technical Skills</b></p>
+          <p>Java</p><hr><p>C</p><hr><p>Javascript Node JS ,Express JS ,HandleBars JS</p><hr>
+<p>
+    C# &nbsp; ASP .net,ADO .net ,MVC-5
+</p><hr>
+<p>
+    Python
+</p><hr>
+    <p>SQL</p> <hr><p>NoSQL ,Mongo DB</p>   <hr>   <br> 
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-book fa-fw w3-margin-right w3-text-teal"></i>Certifications</b></p>
+          <hr>
+          <p><a class="nav-link" style="text-decoration: none;"
+            href="https://drive.google.com/open?id=1QAR0OxhEAbNBg4GcTCFNtO6mG5DRjPvm">Agile Software Development</a></p>
+            <hr>
+          <p><a class="nav-link" style="text-decoration: none;"
+            href="https://drive.google.com/open?id=1JBbXnDKGthFFSuxi46RPR_PGeHyoc2d1">Node js</a></p>
+            <hr>
+          <p><a class="nav-link" style="text-decoration: none;"
+            href="https://drive.google.com/file/d/10eTAZCZDGUm5In7StOStW9amaFsGl5Zd/view">GitHub Mastering</a></p><hr>
+            <p><a class="nav-link" style="text-decoration: none;"
+                href="#">Core Java</a></p>
+              <hr>
+        </div>
+      </div><br>
 
-<body>
-  <!-- 
-<div class="jumbotron text-center" style="margin-bottom:0"> -->
-  <!-- <h1></h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div> -->
-
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">About</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#education">Education</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#experience">Work Experience</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#project">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-      </ul>
+    <!-- End Left Column -->
     </div>
-  </nav>
 
-  <div class="container" style="margin-top:30px">
-    <div class="row">
-      <div class="col-sm-4">
-        <h2 id="aboutme">About Me</h2>
-        <h5>Darshan Doddaghatta</h5>
-        <img src="DarshanDoddaghattaphoto.jpg" alt="Avatar" class="avatar">
-        <p>
-          Skilled in node js ,ext js and .NET Framework. Strong engineering professional with a Master's degree in Computer Science and a Bachelor's degree
-          focused in Electronics and Communications Engineering</p>
-
-        <h2>Technical Skills</h2>
-        <p></p>
-
-        <h3 id="contact"> Contact Info</h3>
-        <p></p>
-        <ul class="nav nav-pills flex-column">
-          <li class="nav-item">
-            <a class="nav-link " href="DarshanDoddaghatta.pdf">Resume</a>
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Engineer - Larson and Toubro Infotech Pvt Ltd</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017 -August 2019</span></h6>
+          <p>Invest to Sunset Team (Node JS, Express JS, Mongo DB, ASP .net-MVC)</p>
+        <ul class="text-muted text-left">
+          <li>
+            Worked in Agile project under Business Integrated Work Station team to develop, deploy, test and integrate the
+Micro Services.
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/darshanVishnu">GitHub</a>
+          <li>
+    	Developed micro services using IUX core Node JS and Sencha Ext JS Frameworks for micro views which are integrated under BIWS to serve for billing functionalities and eliminating the CL portal dependencies.Mocha and chai was also used to write testing scripts.
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/darshan-doddaghatta-411576126">Linkedin</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">darshan.vishnu95@gmail.com</a>
+          <li>Contributed to team also as a Scrum Master Substitute for 3 months which involved roles such as iteration planning, feature creation, conducting retrospective, daily stand up monitoring and PI planning.
           </li>
         </ul>
-        <hr class="d-sm-none">
+        </p>
+        <hr>
+        <p>Legacy Portal Elimination (ASP .net, J-query, AJAX, Javascript, MySQL, #C, MVC-5, IIS)
+        </p>
+        <ul class="text-muted text-left">
+       
+        <li>
+        Worked in CNS E-Quote team of  size 10 in an Agile project environment. Developed a Monolithic architecture Web application which is a  Rating system  used in Business Insurance for supporting Construction Markets .
+        
+    </li>     
+     <li>Converted Infragistics grids to jQuery grid controls and rewritten WCF services to Web API (MVC)using #C.
+     </li>
+     <li>Involved in making the web app Cross Browser Compatible and eliminating the portal dependencies which where rewritten from vb script to C# back end. 
+     </li>
+     <li> Awarded Pat on Back as an appreciation for the Innovative thinking and
+        quickly solving problems.</li>
+          </ul>        
+        <hr>
+        </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>State University of NewYork at Binghamton </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2021 &nbsp; &nbsp;    GPA: 3.7</h6>
+          <p>Master of Science in Computer Science .    </p>
+          <p>Course Work:<br>
+           Computer Architecture, Design and Analysis of Computer Algorithms,Operating System, Programming language,Design Pattern,Introduction to Distributive System, Data Science, Internet of things ,Data Mining.
+        </p>
+  
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>PES Insitute of Technology , Bengaluru</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015&nbsp; &nbsp;  GPA: 3.6</h6>
+          <p>Bachelor of Engineering in Electronics & Communication. &nbsp; &nbsp;</p>
+          
+          <hr>
+        </div>
       </div>
 
-      <div class="col-sm-8">
-        <h2 id="education">Education</h2>
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-cog fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Projects</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b><a  style="color:#464343; text-decoration: none;" href="https://github.com/darshanVishnu/">
+            Distributed, Fault-Tolerant, Highly Available NoSQL Database (Java, Google protobuf)</a></h5>
+          </b></h5>
+          <p>
+          <ul class="text-muted text-left">
+            <li>An eventually-consistent distributed key-value database like Cassandra.
+              Implements read repair and hinted handoff.</li>
+          </ul></p>
+          <hr>
+        </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b><a  style="color:#464343; text-decoration: none;" href="https://github.com/darshanVishnu/">
+                <a  style="color:#464343; text-decoration: none;" href="https://github.com/darshanVishnu/">
+                    Chandy-Lamport Snapshot Algorithm (Java ,Google protobuf)</a></h5>
+                </h5>
+            <p>
+            <ul class="text-muted text-left">
+              <li>A multithreaded application which records consistent global state of an asynchronous distributed banking
+                system. The banking system comprised of branches which continuously performed random transactions with each
+                other.</li>
+         </ul></p>
+            <hr>
+          </div>
 
-        <h5>Master of Science</h5>
-        <h6>STATE UNIVERSITY OF NEW YORK, BINGHAMTON</h6>
-        <img src="bing.png" alt="Avatar" class="avatar" >
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>
+                <a  style="color:#464343; text-decoration: none;" href="https://github.com/darshanVishnu/impactOfRacismDataScience">
+               Impact of Racism on US Elections 2020( Node JS, Mongo DB, Express JS, Python, NLP)</a>
+                </h5>
+            <p>
+            <ul class="text-muted text-left">
+                <li>Collected data from twitter stream api and reddit api using Node JS Api for period of 30 days which is about 10  million tweets and Reddits .
+                </li> <li> Filtered the data based on keys words and stored it as mongo collection. Sentimental analysis was made on the filtered data  to determine the prediction and impact.
+                  Python Environment was used for sentimental analysis and keyword pulling.
+      
+                </li>
+         </ul></p>
+            <hr>
+          </div>
 
-        <p class="text-muted text-left">I am currently pursuing M.S. in Computer Science here. I expect to graduate in
-          May 2021. GPA: 3.7.
-          Course Work: Operating System , Data Mining, Programming language,Design Pattern,Introduction to Distributive
-          System,Design and Analysis of Computer Algorithms.</p>
 
-        <h5>Bachelor of Engineering</h5>
-        <h6>PES INSTITUTE OF TECHNOLOGY, BANGALORE SOUTH CAMPUS</h6>
-        <!-- <img src="pes.jpg" class="rounded-circle" alt="Cinque Terre" width=250 height="236"> -->
-        <img src="0.jpeg" alt="Avatar" class="avatar" />
-        <p>.</p>
-        <p class="text-muted text-left">I started undergrad here in Fall 2013 and graduated in Spring 2017 with B.E. in
-          Electronics & Communication. GPA: 3.64
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>
+                <a  style="color:#464343; text-decoration: none;" href="https://github.com/CoaProject2/apexOutOfOrder">
+                    Out of Order Apex Simulator(C, Computer Architecture, ASM)</a>
+                </h5>
+            <p>
+            <ul class="text-muted text-left">
+            <li>   Designed and developed a simulator for Apex out-order execution pipeline which takes a sequence of assembly level 
+                instructions and shows cycle-by-cycle executions .
+              </li>
+              <li> Supports data forwarding, branching ,multiple Functionals units, ROB, LSQ, Issue Queue and memory instructions.
+              </li>
+         </ul></p>
+            <hr>
+          </div>
 
-        </p>
 
-        <br>
-        <h2 id="experience">Work Expierence</h2>
-        <h5>Larson and Toubro Infotech Pvt Ltd</h5>
-        <p>Invest to Sunset Team </p>
-        <ul class="text-muted text-left">
-          <li>
-            Worked in Agile project under BIWS (Business Integrated Work Station) team to develop, deploy, test and
-            integrate the Micro Services.
-          </li>
-          <li>Developed micro services using IUX core Node and Sencha Ext JS Frameworks for micro views which are
-            integrated under BIWS to serve for billing functionalities and eliminating the CL portal dependencies.
-          </li>
-          <li> Worked as a Scrum Master Substitute for 3 months which involved roles such as iteration planning, feature
-            creation, conducting retrospective, daily stand up monitoring and PI planning.
-            APCS (Automated Program Collecting System) March 2018 - September 2018
-          </li>
-        </ul>
-        </p>
-        <p>
-          APCS (Automated Program Collecting System)
-        <ul class="text-muted text-left">
-          <li>
-            Worked with team size of 12 in an Agile project environment. The application is web-based program for
-            location and program collection which is used by Business Insurance system users for the rating system based
-            on the data uploaded for each of the entries.
-          </li>
-          <li>
-            Involved in enhancing Infragistics grids to jQuery -grid controls, converting the WCF services to Web API
-            using #C language and making the App Cross Browser Compatible.
-          </li>
-        </ul>
-        </p>
-        <p></p>
-        LPE (Legacy Portal Elimination)
-        <ul class="text-muted text-left">
-          <li> Worked on CNS E-Quote with team size of 10 in an Agile project environment. The application is web-based
-            Rating system which is used in Business Insurance for supporting Construction Markets .
-          </li>
-          <li> Involved in making the web app Cross Browser Compatible and eliminating the portal dependencies which
-            where rewritten from vb script to C# back end. Also Awarded Pat on Back as an appreciation for the
-            Innovative thinking and quickly solving problems.
-          </li>
-        </ul>
 
-        <h2 id="project">Projects</h2>
-        <h5>
-          <a  style="color:#464343;" href="https://github.com/darshanVishnu/">
-          Distributed, Fault-Tolerant, Highly Available NoSQL Database (Java, Google protobuf)</a></h5>
-        <p class="text-muted text-left">
-        <ul class="text-muted text-left">
-          <li>An eventually-consistent distributed key-value database like Cassandra.
-            Implements read repair and hinted handoff.</li>
-        </ul>
-        </p>
-        <h5>
-          <a  style="color:#464343;" href="https://github.com/darshanVishnu/">
-          Chandy-Lamport Snapshot Algorithm (Java ,Google protobuf)</a></h5>
-        <ul class="text-muted text-left">
-          <li> A multithreaded application which records consistent global state of an asynchronous distributed banking
-            system. The banking system comprised of branches which continuously performed random transactions with each
-            other.
-          </li>
-        </ul>
-        <h5>
-          <a  style="color:#464343;" href="https://github.com/darshanVishnu/impactOfRacismDataScience">
-          Impact of Racism on US Elections 2020( Node JS, Mongo DB, Express JS, Python, NLP)</a>
-        </h5>
-        <ul class="text-muted text-left">
-          <li>Collected data from twitter stream api and reddit api using Node JS Api service for period of 30 days which is about 10        million tweets and Reddits .
-          </li> <li> Filtered the data based on keys words and stored it as mongo collection. Sentimental analysis was made on the filtered data  to determine the prediction and impact.
-            Python was used for sentimental analysis and keyword pulling.
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>
+                <a  style="color:#464343; text-decoration: none;" href="https://github.com/darshanVishnu/javaDesignPatternProgramming">
+                    Multi Thread SocketObject Pool (Java,Design Patterns)
+                </h5>
+            <p>
+            <ul class="text-muted text-left">
+                <li> A multithreaded java application which is used for Thread Pool Management.Created a service api which would mange the number of worker thread and synchronize accordingly.</li> <li>Java best practices, Design pattern principle and used socket programming to solve consumer producer  problem.
+                </li>
+         </ul></p>
+            <hr>
+          </div>
 
-          </li>
-        </ul>
-        <h5>
-          <a  style="color:#464343;" href="https://github.com/CoaProject2/apexOutOfOrder">
-          Out of Order Apex (C, Computer Architecture, ASM)</a>
-        </h5>
-        <ul class="text-muted text-left">
-          <li>   Designed and developed a simulator for Apex out-order execution pipeline which takes a sequence of assembly level 
-            instructions and shows cycle-by-cycle executions .
-          </li>
-          <li> Supports data forwarding, branching ,multiple Functionals units, ROB, LSQ, Issue Queue and memory instructions.
-          </li>
-        </ul>
-        <h5> 
-          <a  style="color:#464343;" href="https://github.com/darshanVishnu/javaDesignPatternProgramming">
-            Multi Thread SocketObject Pool (Java,Design Patterns)
-          </a>
-        </h5>
-        <ul class="text-muted text-left">
-          <li> A multithreaded java application which is used for Thread Pool Management.Created a service api which would mange the number of worker thread and synchronize accordingly.</li> <li>Java best practices, Design pattern principle and used socket programming to solve consumer producer  problem.
-          </li>
-        </ul>
-        <h5> <a  style="color:#464343;" href="https://github.com/darshanVishnu/E-commerce-shopping-cart">
-          E-Commerce online shopping cart (ASP .Net, Entity, MySQL, #C, MVC, IIS)</a></h5>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b><a  style="color:#464343; text-decoration: none;" href="https://github.com/darshanVishnu/E-commerce-shopping-cart">
+                    E-Commerce online shopping cart (ASP .Net, Entity, MySQL, #C, MVC, IIS)</a></h5>
+                </h5>
+            <p>
+            <ul class="text-muted text-left">
+                <li>Designed and developed an e-commerce web app in 3 layered architecture in .net with #C language with
+                    database operations developed in Stored Procedures.
+                  </li>
+                  <li>User profile designed with Asp .net and equipped with shopping cart, order details, printing order
+                    details, payments secured with web services .Admin profile is designed with MVC, entity framework and
+                    equipped Deployed the application online in Internet Information Server (IIS).
+                  </li>
+         </ul></p>
+            <hr>
+          </div>
 
-        <ul class="text-muted text-left">
-          <li>Designed and developed an e-commerce web app in 3 layered architecture in .net with #C language with
-            database operations developed in Stored Procedures.
-          </li>
-          <li>User profile designed with Asp .net and equipped with shopping cart, order details, printing order
-            details, payments secured with web services .Admin profile is designed with MVC, entity framework and
-            equipped Deployed the application online in Internet Information Server (IIS).
-          </li>
-        </ul>
-      </div>
+       </div>
+    <!-- End Right Column -->
     </div>
+    
+  <!-- End Grid -->
   </div>
+  
+  <!-- End Page Container -->
+</div>
 
-  <!-- <div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
-</div> -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <span class="copyright">Copyright © Darshan 2020</span>
-        </div>
-        <div>
-        </div>
-  </footer>
+
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+<a   href="https://www.linkedin.com/in/darshan-doddaghatta-411576126">
+ 
+    <i class="fa fa-linkedin w3-hover-opacity"></i> </a>
+
+    <a href="https://github.com/darshanVishnu/">
+        <i class="fa fa-github w3-hover-opacity">
+        </i>
+  
+    </a>
+  <i class="fa fa-google w3-hover-opacity">
+    
+  </i>
+  
+  <p>Powered by <a href="" target="_blank">@darshanVishnu</a></p>
+</footer>
+
 </body>
-
 </html>
